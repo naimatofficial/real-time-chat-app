@@ -1,0 +1,18 @@
+{
+	"name": "chat-app",
+	"version": "1.0.0",
+	"description": "chat app using latest node js design patterns observers methodlogy. socket io to hanlde real time chat",
+	"main": "server.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"server": "nodemon backend/server.js"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"cors": "^2.8.5",
+		"express": "^4.19.2",
+		"socket.io": "^4.7.5"
+	}
+}
